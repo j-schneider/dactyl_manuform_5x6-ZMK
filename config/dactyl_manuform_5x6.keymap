@@ -59,7 +59,7 @@
                    &kp LEFT_BRACKET  &kp RIGHT_BRACKET                                                                                          &Bracket   &mo 0
                                                         &kp LALT  &kp SPACE                                     &kp DOWN    &kp DEL
                                                                    &kp LEFT_GUI &kp C_AL_CALCULATOR  &kp UP_ARROW  &kp RET
-                                                                   &mo 1        &GRAVE               &kp LEFT      &kp RIGHT
+                                                                   &mo 1        &kp GRAVE               &kp LEFT      &kp RIGHT
             >;
         };
 
@@ -79,9 +79,9 @@
         raise_layer {
             bindings = <
 &bootloader  &bt BT_SEL 0   &bt BT_SEL 1    &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4                   &trans  &trans  &trans  &trans  &trans            &trans
-&trans       &bt BT_DISC 0  &bt BT_DISC 1   &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4                  &trans  &kp 7 &kp 8 &kp 9 &kp MINUS  &ktrans
-&trans       &bt BT_CLR     &bt BT_CLR_ALL  &bt BT_NXT     &bt BT_PRV     &trans                         &trans  &kp 4 &kp 5 &kp 6 &kp PLUS        &trans
-&trans       &trans         &trans          &trans         &trans         &trans                         &trans  &kp 1 &kp 2 &kp 3 &kp EQUAL &trans
+&trans       &bt BT_DISC 0  &bt BT_DISC 1   &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4                  &trans  &kp N7 &kp N8 &kp N9 &kp MINUS  &ktrans
+&trans       &bt BT_CLR     &bt BT_CLR_ALL  &bt BT_NXT     &bt BT_PRV     &trans                         &trans  &kp N4 &kp N5 &kp N6 &kp PLUS        &trans
+&trans       &trans         &trans          &trans         &trans         &trans                         &trans  &kp N1 &kp N2 &kp N3 &kp EQUAL &trans
                             &trans          &trans                                                                       &trans  &trans
                                                            &trans         &trans                         &trans  &trans
                                                                           &trans         &trans  &trans  &trans
