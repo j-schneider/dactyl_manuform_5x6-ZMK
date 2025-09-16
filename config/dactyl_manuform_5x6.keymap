@@ -56,10 +56,10 @@
 &kp TAB    &kp Q   &kp W             &kp E              &kp R      &kp T                                              &kp Y      &kp U          &kp I      &kp O      &kp P      &kp MINUS
 &kp LSHFT  &kp A   &kp S             &kp D              &kp F      &kp G                                              &kp H      &kp J          &kp K      &kp L      &kp SEMI   &kp SQT
 &kp LCTRL  &kp Z   &kp X             &kp C              &kp V      &kp B                                              &kp N      &kp M          &kp COMMA  &kp DOT    &kp SLASH  &BSLH_GRV
-                   &kp LEFT_BRACKET  &kp RIGHT_BRACKET                                                                                          &Bracket   &mo 0
+                   &kp LEFT_BRACKET  &kp RIGHT_BRACKET                                                                                          &Bracket   &mo 2
                                                         &kp LALT  &kp SPACE                                     &kp DOWN    &kp DEL
-                                                                   &kp LEFT_GUI &kp C_AL_CALCULATOR  &kp UP_ARROW  &kp RET
-                                                                   &mo 1        &kp GRAVE               &kp LEFT      &kp RIGHT
+                                                                   &mo 1 &kp SPACE  &kp UP_ARROW                &kp RET
+                                                                   &kp LEFT_GUI        &kp GRAVE               &kp LEFT      &kp RIGHT
             >;
         };
 
