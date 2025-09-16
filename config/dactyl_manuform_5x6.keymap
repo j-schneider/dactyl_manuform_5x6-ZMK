@@ -52,25 +52,25 @@
 
         default_layer {
             bindings = <
-&lt 2 ESC  &kp N1  &kp N2            &kp N3             &kp N4     &kp N5                                             &kp N6     &kp N7         &kp N8     &kp N9     &kp N0     &kp DEL
+&lt 2 ESC  &kp N1  &kp N2            &kp N3             &kp N4     &kp N5                                             &kp N6     &kp N7         &kp N8     &kp N9     &kp N0     &kp BACKSPACE=DEL
 &kp TAB    &kp Q   &kp W             &kp E              &kp R      &kp T                                              &kp Y      &kp U          &kp I      &kp O      &kp P      &kp MINUS
 &kp LSHFT  &kp A   &kp S             &kp D              &kp F      &kp G                                              &kp H      &kp J          &kp K      &kp L      &kp SEMI   &kp SQT
 &kp LCTRL  &kp Z   &kp X             &kp C              &kp V      &kp B                                              &kp N      &kp M          &kp COMMA  &kp DOT    &kp SLASH  &BSLH_GRV
-                   &kp LEFT_BRACKET  &kp RIGHT_BRACKET                                                                                          &Bracket   &kp EQUAL
-                                                        &kp SPACE  &kp LEFT_SHIFT                                     &kp RET    &kp BACKSPACE
-                                                                   &mo 1           &kp C_AL_CALCULATOR  &kp UP_ARROW  &kp DOWN
-                                                                   &kp LEFT_GUI    &F2_F5               &kp LEFT      &kp RIGHT
+                   &kp LEFT_BRACKET  &kp RIGHT_BRACKET                                                                                          &Bracket   &mo 0
+                                                        &kp LALT  &kp SPACE                                     &kp DOWN=RET    &kp DEL=BACKSPACE
+                                                                   &kp LEFT_GUI &kp C_AL_CALCULATOR  &kp UP_ARROW  &kp RET=DOWN
+                                                                   &mo 1        &GRAVE               &kp LEFT      &kp RIGHT
             >;
         };
 
         lower_layer {
             bindings = <
 &kp F12  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5                  &kp F6  &kp F7    &kp F8    &kp F9  &kp F10    &kp F11
-&trans   &trans  &trans  &trans  &trans  &trans                  &trans  &trans    &trans    &trans  &trans     &trans
-&trans   &trans  &trans  &trans  &trans  &trans                  &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans
+&trans   &trans  &kp UP   &trans  &trans  &trans                  &trans  &trans    &trans    &trans  &trans     &trans
+&trans   &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans
 &trans   &trans  &trans  &trans  &trans  &trans                  &trans  &trans    &trans    &trans  &trans     &trans
                  &trans  &trans                                                    &trans    &trans
-                                 &trans  &trans                  &trans  &mo 0
+                                 &trans  &trans                  &trans  &trans
                                          &trans  &trans  &trans  &trans
                                          &trans  &trans  &trans  &trans
             >;
@@ -79,9 +79,9 @@
         raise_layer {
             bindings = <
 &bootloader  &bt BT_SEL 0   &bt BT_SEL 1    &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4                   &trans  &trans  &trans  &trans  &trans            &trans
-&trans       &bt BT_DISC 0  &bt BT_DISC 1   &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4                  &trans  &trans  &trans  &trans  &kp C_PLAY_PAUSE  &kp K_VOL_UP
-&trans       &bt BT_CLR     &bt BT_CLR_ALL  &bt BT_NXT     &bt BT_PRV     &trans                         &trans  &trans  &trans  &trans  &kp C_NEXT        &kp K_VOL_DN
-&trans       &trans         &trans          &trans         &trans         &trans                         &trans  &trans  &trans  &trans  &kp C_PREVIOUS    &kp K_MUTE
+&trans       &bt BT_DISC 0  &bt BT_DISC 1   &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4                  &trans  &kp 7 &kp 8 &kp 9 &kp MINUS  &ktrans
+&trans       &bt BT_CLR     &bt BT_CLR_ALL  &bt BT_NXT     &bt BT_PRV     &trans                         &trans  &kp 4 &kp 5 &kp 6 &kp PLUS        &trans
+&trans       &trans         &trans          &trans         &trans         &trans                         &trans  &kp 1 &kp 2 &kp 3 &kp EQUAL &trans
                             &trans          &trans                                                                       &trans  &trans
                                                            &trans         &trans                         &trans  &trans
                                                                           &trans         &trans  &trans  &trans
